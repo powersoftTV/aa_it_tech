@@ -9,11 +9,7 @@
 <?php wp_head(); ?>
 </head>
 <?php  global $post; $slug=$post->post_name;
-if($slug=='home' || $slug==''){?><body <?php body_class($class); ?>><?php }
-else { 
-	if($slug=='hysterectomy-morcellation' || $slug=='power-morcellation-surgeries' || $slug=='morcellator-lawsuit-settlements'){?><body <?php body_class('sidebar3'); ?>> <?php } 
-	else {?><body <?php body_class('sidebar2'); ?>> <?php }
-}?>
+?>
 
 <div id="wrapper_main">
 	<div id="div_menu">
