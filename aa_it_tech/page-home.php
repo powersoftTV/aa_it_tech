@@ -2,10 +2,10 @@
 	<?php get_header(); ?>
     
 	<div>
-    	
+    
     </div>
     
-    
+    <div>
     <?php if(have_posts()) : ?>
 	<?php while(have_posts()) : the_post(); ?>
 	<?php the_content(); ?>
@@ -15,7 +15,7 @@
     <?php else : ?>
     <h2><?php _e('Not Found'); ?></h2>
 	<?php endif; ?>  
-     </div>
+     
     </div>
 	<?php 	get_sidebar();?>
 	<div>
