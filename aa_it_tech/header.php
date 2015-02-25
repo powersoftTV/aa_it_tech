@@ -12,6 +12,8 @@
 ?>
 
 <div id="wrapper_main">
+<div id="logo">
+</div>
 	<div id="div_menu">
 		<div id="wrapper">
 			<nav class="main-navigation">
