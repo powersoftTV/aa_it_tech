@@ -1,7 +1,7 @@
 <footer>
 <div id="footer">
- <div id="div_menu">
-		<div id="wrapper">
+ <div class="top_h">
+		<div id="f_menu">
 			<nav class="main-navigation">
                 <?php  wp_nav_menu( array( 'theme_location' => 'bottom-menu') ); ?>
             </nav>

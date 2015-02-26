@@ -6,7 +6,7 @@ ul.menu li:nth-child(5):after {
 #wrapper {
 	max-width:600px;	
 }
-#top_h{
+.top_h{
 		width:92%;
 	}
 .adv{
@@ -19,7 +19,7 @@ ul.menu li:nth-child(5):after {
 }
 @media only screen and (min-width: 540px) and (max-width: 768px) {
 
-#top_h{
+.top_h{
 		width:95%;
 	}
 .adv{
@@ -39,7 +39,7 @@ ul.menu li:nth-child(5):after {
 
 
 @media only screen and (max-width: 539px) {
-	#top_h{
+.top_h{
 		width:100%;
 	}
 
