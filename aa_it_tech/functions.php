@@ -20,18 +20,25 @@ function wp_media_style() {
 	wp_register_style('media', get_template_directory_uri().'/media.css');
     wp_enqueue_style('media');
 }
-function register_my_menus(){
-	register_nav_menus(
-		array( 'menu' => 'topmenu')
-	);
-}
-
-if ( !is_nav_menu('menu') ) {
+if ( !is_nav_menu('top-menu') ) {
     $menu_id = wp_create_nav_menu('menu');
     wp_update_nav_menu_item($menu_id, 1);
 }
+if ( !is_nav_menu('bottom-menu') ) {
+    $menu_id = wp_create_nav_menu('bottom');
+    wp_update_nav_menu_item($menu_id, 2);
+}
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'top-menu' => __( 'Header Menu' ),
+      'bottom-menu' => __( 'Extra Menu' )
+    )
+  );
+}
 
+add_action( 'init', 'register_my_menus' );
 add_action( 'wp_enqueue_scripts', 'wp_fittext_script' );
 add_action( 'wp_enqueue_scripts', 'wp_media_style' );
-add_action( 'init', 'register_my_menus' );
+
 ?>

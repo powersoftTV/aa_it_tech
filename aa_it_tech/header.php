@@ -12,13 +12,21 @@
 ?>
 
 <div id="wrapper_main">
-<div id="logo">
+<div id="top_h">
+	<div class="logo" >
+		<img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="">
+	</div>
+    <div class="adv">
+    	<ul>
+        	<li>FREE SHIPPING to Lower 48 States on Web Orders</li>
+            <li id="col_blue">Questions? Call: (818) 616-3509</li>
+        </ul>
+    </div>
 </div>
 	<div id="div_menu">
 		<div id="wrapper">
 			<nav class="main-navigation">
-                <?php  wp_nav_menu( array( 'theme_location' => 'menu') ); ?>
-                <?php /* shailan_dropdown_menu( ); */?>
+                <?php  wp_nav_menu( array( 'theme_location' => 'top-menu') ); ?>
             </nav>
 		</div>
 	</div>
