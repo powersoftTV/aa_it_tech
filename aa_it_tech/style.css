@@ -351,6 +351,7 @@ ul#menu-bottom li.current-menu-parent a{
 	max-width:1170px;
 	overflow:hidden;
 	margin: 0 auto;
+	padding:0 4%;
 }
 #h_img{
 	float:left;
@@ -375,4 +376,7 @@ ul#menu-bottom li.current-menu-parent a{
 }
 #link2{
 	color:#0C70CC;
+}
+.margin_txt{
+	margin:0 2%;
 }
