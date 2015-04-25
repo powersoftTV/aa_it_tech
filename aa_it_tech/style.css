@@ -13,8 +13,8 @@ body {
 	background-color:#FFF;
 	font-family: 'Roboto', sans-serif;
 	color:#000;
-	font-size:13px;
-	line-height:20px;
+	font-size:16px;
+	line-height:24px;
 }
 a img{
 	border:none;
@@ -379,4 +379,14 @@ ul#menu-bottom li.current-menu-parent a{
 }
 .margin_txt{
 	margin:0 2%;
+}
+.page_wrapper{
+	max-width:800px;
+	overflow:hidden;
+	margin:0 auto;
+	padding: 0 4%;
+}
+.page_img_div{
+	margin: 30px 20px 0 10px;
+	float: left;
 }

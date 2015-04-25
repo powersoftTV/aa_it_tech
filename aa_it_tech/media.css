@@ -248,6 +248,11 @@ ul#big_but li{
 #h_link{
 	font-size:16px;	
 }
+.page_img_div{
+	float:none;
+	text-align:center;
+	margin: 10px 20px 0 10px;
+}
 }
 @media only screen and (max-width: 360px) {
 .metaslider .nivo-caption{
@@ -258,5 +263,11 @@ ul#big_but li{
 }
 .str2{
 	font-size:18px;
+}
+input{
+	width:200px;
+}
+textarea{
+	width:200px;
 }
 }

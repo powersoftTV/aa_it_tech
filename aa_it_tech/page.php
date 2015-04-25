@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="p_wrapper">
+<div class="page_wrapper">
 <?php if(have_posts()) : ?>
 	<?php while(have_posts()) : the_post(); ?>
 		<?php the_content(); ?>
